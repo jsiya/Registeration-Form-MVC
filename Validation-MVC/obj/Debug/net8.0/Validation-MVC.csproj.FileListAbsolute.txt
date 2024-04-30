@@ -28,3 +28,10 @@
 /Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/obj/Debug/net8.0/Validation-MVC.pdb
 /Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/obj/Debug/net8.0/Validation-MVC.genruntimeconfig.cache
 /Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/obj/Debug/net8.0/ref/Validation-MVC.dll
+/Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/bin/Debug/net8.0/FluentValidation.dll
+/Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/obj/Debug/net8.0/Validation-MVC.csproj.AssemblyReference.cache
+/Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/obj/Debug/net8.0/Validation-MVC.MvcApplicationPartsAssemblyInfo.cs
+/Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/obj/Debug/net8.0/Validation-MVC.sourcelink.json
+/Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/obj/Debug/net8.0/Validati.7A070E83.Up2Date
