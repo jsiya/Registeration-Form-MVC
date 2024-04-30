@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DhlY7/GQdOyB42YflLaDVgF8nVtxnH53rvg+0UuAhvWeZuEqvKIfNG8aaEwvF/OhgJgS8W7VEB8NJFfiHeRTqA==",
+  "dgSpecHash": "dI0j7Eron5yd6xDVDuBrE0P8vggMWp2uMSQwRHeCHFij6G/LSbTpvlhmHxEAVMuDruvMXDZEODeds2iyDAHknA==",
   "success": true,
   "projectFilePath": "/Users/siyajabbarova/RiderProjects/Validation-MVC/Validation-MVC/Validation-MVC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/siyajabbarova/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/siyajabbarova/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/siyajabbarova/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "/Users/siyajabbarova/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

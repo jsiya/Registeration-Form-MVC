@@ -1,0 +1,29 @@
+@model dynamic
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<html lang="en">
+<head>
+    <title>Sign In</title>
+</head>
+<body>
+<div class="d-flex flex-column align-items-center card p-md-2 m-xl-5">
+    <h1>Sign Up</h1>
+    <form method="post" asp-action="Index" asp-controller="Login" class="d-flex flex-column card-body">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="username" placeholder="username">
+            <label for="username">Username</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <button class="btn btn-danger m-5" type="submit"> Sign In</button>
+    </form>
+    <button onclick="location.href='@Url.Action("Index", "Login")'" class="btn btn-outline-danger">Back</button>
+</div>
+</body>
+</html>
