@@ -16,7 +16,7 @@ public class UserValidator
         
         
         [Required(ErrorMessage = "Please enter username")]
-        [MinLength(5, ErrorMessage = "Username cannot be less than 5 character")]
+        [MinLength(4, ErrorMessage = "Username cannot be less than 4 character")]
         public string Username { get; set; }
         
         

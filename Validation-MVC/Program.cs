@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Validation_MVC.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddSingleton<DbContext>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<Program>());
 
 var app = builder.Build();
 

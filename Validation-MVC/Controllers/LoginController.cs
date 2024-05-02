@@ -34,7 +34,7 @@ public class LoginController : Controller
     public IActionResult Login(User user)
     {
         var logUser = DbContext.Users.FirstOrDefault(u => u.Username == user.Username);
-        if (logUser is not null)
+        if (logUser is not null && logUser.Password == user.Password)
         {
             return RedirectToAction("Index", "Home");
         }
